@@ -17,7 +17,7 @@ Research
 ![Editing a markdown file for a talk](/images/editing-talk.png)
 Real Time Semantic Segmentation for 3D LIDAR point clouds ([video](https://drive.google.com/file/d/1i47W96V4gwl7YbkoEbO0dWUO-UkIkV25/view?usp=sharing))
 ------
-I proposed a multi-perspective nueral newtwork structure for semantic segmentation on 3D LiDAR point clouds. This network use both the bird's eye view and sphere view projections as input, and fuse them 
+I proposed a multi-perspective CNN-based nueral newtwork structure for semantic segmentation on 3D LiDAR point clouds. This network can fuse the features from both bird's eye view projections and sphere view projections. User can also cutomize the fused layer number of these features. I also integrate this network with SLAM algorithm in order to improve its performance on mobile robot.
 
 ![Editing a markdown file for a talk](/images/editing-talk.png)
 Graph-based Semantic Segmentation for 3D point clouds | Biorobotics Lab, Carnegie Mellon University
