@@ -14,7 +14,19 @@ I'm interested in solving 3D perception problems (especially the semantic unders
 
 Research
 ======
+Real Time Semantic Segmentation for 3D LIDAR point clouds | Biorobotics Lab, Carnegie Mellon University
+------
 ![Editing a markdown file for a talk](/images/editing-talk.png)
+
+Graph-based Semantic Segmentation for 3D point clouds | Biorobotics Lab, Carnegie Mellon University
+------
+![Editing a markdown file for a talk](/images/editing-talk.png)
+
+{% include base_path %}
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
 
 Getting started
 ======
