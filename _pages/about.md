@@ -14,7 +14,7 @@ I'm interested in solving 3D perception problems (especially the semantic unders
 
 Research
 ======
-![semantic_segmentation](/images/semantic_segmentation.png){:height="50%" width="50%"}
+![semantic_segmentation](/images/semantic_segmentation.png){:align="center" height="50%" width="50%"}
 
 Real Time Semantic Segmentation for 3D LIDAR point clouds ([video](https://drive.google.com/file/d/1i47W96V4gwl7YbkoEbO0dWUO-UkIkV25/view?usp=sharing))
 ------
