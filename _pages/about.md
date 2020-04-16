@@ -17,9 +17,6 @@ Research
 
 Real Time Semantic Segmentation for 3D LIDAR point clouds ([video](https://drive.google.com/file/d/1i47W96V4gwl7YbkoEbO0dWUO-UkIkV25/view?usp=sharing))
 ------
-
-<img style="float:left; margin:0 10px 10px 0" markdown="1" height="40%" width="40%" src="/images/robot_semantic.png" >
-
 <p align="center">
   <img height="40%" width="40%" src="/images/robot_semantic.png" /></div>
 </p>
