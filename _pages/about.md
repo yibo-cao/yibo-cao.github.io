@@ -18,7 +18,7 @@ Research
 Real Time Semantic Segmentation for 3D LIDAR point clouds ([video](https://drive.google.com/file/d/1i47W96V4gwl7YbkoEbO0dWUO-UkIkV25/view?usp=sharing))
 ------
 
-<img align="left" height="40%" width="40%" src="/images/robot_semantic.png" padding-right:10px" >
+<img align="left" height="40%" width="40%" src="/images/robot_semantic.png" ; padding-right:10px" >
 : I proposed a multi-perspective CNN-based nueral newtwork for semantic segmentation on 3D LiDAR point clouds. This network can fuse the features from both bird's eye view projections and sphere view projections, then providing robust semantic segmentation results. Users can cutomize the fused layer number of these features under different time limitation requirements. I also integrated this network with SLAM algorithm (by using a LiDAR odometry algorithm to get a stable and dense point cloud) in order to improve its performance on our hexapod mobile robot. Now the robot can do real time semantic segmentation with only a 16-line Velodyne LiDAR as 3D perception sensor as shown in the video.
 
 ![Editing a markdown file for a talk](/images/editing-talk.png)
