@@ -19,9 +19,15 @@ Real Time Semantic Segmentation for 3D LIDAR point clouds ([video](https://drive
 ------
 <p align="center">
   <img height="60%" width="60%" src="/images/robot_semantic.png" />
-  <img height="60%" width="60%" src="/images/robot_semantic.png" />
 </p>
 
-I proposed a multi-perspective CNN-based nueral newtwork for semantic segmentation on 3D LiDAR point clouds. This network can fuse the features from both bird's eye view projections and sphere view projections, then providing robust semantic segmentation results. Users can cutomize the fused layer number of these features under different time limitation requirements. I also integrated this network with SLAM algorithm (by using a LiDAR odometry algorithm to get a stable and dense point cloud) in order to improve its performance on our hexapod mobile robot. Now the robot can do real time semantic segmentation with only a 16-line Velodyne LiDAR as 3D perception sensor as shown in the video.
+I proposed a multi-perspective CNN-based nueral newtwork for semantic segmentation on 3D LiDAR point clouds. This network can fuse the features of point cloud projection from both bird's eye view and sphere view to provide robust semantic segmentation results. Users can cutomize the fused feature layer numbers according to different inference time requirements. I also integrated this network with SLAM algorithm in order to improve the segmentation performance on our hexapod robot. Now the robot can do real time semantic segmentation with only a 16-line Velodyne LiDAR as 3D perception sensor as shown in the video.
 
+Graph-based Semantic Segmentation for 3D point clouds
+------
+<p align="center">
+  <img height="60%" width="60%" src="/images/graph_network_structure.png" />
+  ![alt-text-1](/images/graph_network_structure.png "title-1") ![alt-text-2](/images/kittiHotseg.png "title-2")
+</p>
+In the project, we designed a hierarchical graph neural network, which is adopted from [DGCNN](https://arxiv.org/pdf/1801.07829.pdf). This network utilizes both the local and global features of each point to do semantic inference on the given point clouds. The figure above shows how our hexapod robot utilizes this graph network. It has a 16-line Velodyne LiDAR to perceive the environment as global point clouds, while RGB cameras are mounted on its foot for reasoning local features. Then our network, which has learned the relationship between the local and global features, will do semantic inference on the whole point clouds. In this project, I wrote a functional API for 3D point cloud data processing, specially designed for graph-based network. I also collaborated with other group members on building this hierarchical graph network. Also, I customized this hexapod robot to let it be able to use this graph-based segmentation algorithm.
 
