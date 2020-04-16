@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a second-year research-based master student in Mechanical Engineering at [Carnegie Mellon University](https://www.cmu.edu/), major in robotics. I'm a member of [Biorobotics Lab](http://biorobotics.ri.cmu.edu/index.php) of [the Robotics Institue](https://www.ri.cmu.edu/), advised by Prof. [Howie Choset](https://www.cs.cmu.edu/~./choset/bio.html). My research topics are 3D semantic segmentation and perception for mobile robots. 
+I'm a graduating research-based master student in Mechanical Engineering at [Carnegie Mellon University](https://www.cmu.edu/), major in robotics. I'm a member of [Biorobotics Lab](http://biorobotics.ri.cmu.edu/index.php), advised by Prof. [Howie Choset](https://www.cs.cmu.edu/~./choset/bio.html). My research interests are 3D semantic segmentation and perception for mobile robots. 
 
-I'm interested in solving 3D perception problems (especially the semantic understanding of environments) using both deep learning methods and geometric methods. 
+I'm interested in solving 3D perception problems (especially the semantic understanding of 3D environments) using both deep learning methods and geometric methods. 
 
 Research
 ======
