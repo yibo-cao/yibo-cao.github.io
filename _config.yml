@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yibo Cao"
+title                    : "Webpage of Yibo Cao"
 title_separator          : "-"
 name                     : &name "Webpage of Yibo Cao"
 description              : &description "personal description"
