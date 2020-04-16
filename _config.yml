@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yibo Cao"
   avatar           : "profile.png"
-  bio              : "Research Topics: 3D semantic segmentation and 3D perception for mobile robots"
+  bio              : 
   location         : "Pittsburgh, PA"
   employer         :
   pubmed           : 
   googlescholar    :
-  email            :
+  email            :  "yibocao95@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
