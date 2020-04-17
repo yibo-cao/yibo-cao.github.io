@@ -45,7 +45,7 @@ Modular Perception Box for mobile robot([Robot system](/images/robotsystem.png))
 </p>
 I designed and fabricated a modular perception box that has integrated LiDAR, RealSense camera and Intel NUC. We also integrated the SLAM system and Nvidia Xavier in this box, so that with this modular box mounted on any mobile robot, the robot can utilize the perception functions easily. As shown in this [link](/images/robotsystem.png), on our hexapod robot, this box can cooperate with other sensors to perform complex tasks.
 
-Project
+Projects
 ======
 
 Comparison of ORB-SLAM2 and DeepVO([report](/files/slam_report.pdf))
