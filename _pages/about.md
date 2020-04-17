@@ -47,7 +47,7 @@ I designed and fabricated a modular perception box that has integrated LiDAR, Re
 Project
 ======
 
-Comparison of ORB-SLAM2 and DeepVO([report](/files/slam_report.png))
+Comparison of ORB-SLAM2 and DeepVO([report](/files/slam_report.pdf))
 ------
 <p align="center">
   <img height="60%" width="60%" src="/images/slam.gif" />
