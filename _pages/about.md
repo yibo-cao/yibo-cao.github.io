@@ -65,6 +65,6 @@ This is my course project of Computer Vision Couse. We manually generated the Li
 Position analysis of robotic arm’s end-effector
 ------
 <p align="center">
-  <img height="60%" width="60%" src="/images/GPR.gif" />
+  <img height="60%" width="60%" src="/images/GPR2.gif" />
 </p>
 This project aims at predicting the position of a robot arm with very limited calibration data. We used machine learning algorithms to achieve the error feature beneath the robot arm. I implemented and optimized an iterative Gaussian Process Regression (GPR) algorithm to analyze the end-effector position of a high DoF (degree of freedom) industrial robotic arm, achieving prediction error below 0.068mm. I also implemented other machine learning methods, such as SVR (Support Vector Machine Regression) and Bayesian Inference to analyz the iterative GPR performance.
