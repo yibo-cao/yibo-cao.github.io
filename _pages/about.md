@@ -52,4 +52,11 @@ Comparison of ORB-SLAM2 and DeepVO([report](/files/slam_report.pdf))
 <p align="center">
   <img height="60%" width="60%" src="/images/slam.gif" />
 </p>
-This is the course project of Robot Localization and Mapping. We implemented [ORB-SLAM2](https://arxiv.org/pdf/1610.06475.pdf) and [DeepVO](https://arxiv.org/pdf/1709.08429.pdf). ORB-SLAM2 uses a traditional bag of words method in its visual odometry module while DeepVO is a learning-based visual odometry module. We conducted an analysis and comparison between DeepVO and the visual odometry in ORB-SLAM2.
+This is my course project of Robot Localization and Mapping. We implemented [ORB-SLAM2](https://arxiv.org/pdf/1610.06475.pdf) and [DeepVO](https://arxiv.org/pdf/1709.08429.pdf). ORB-SLAM2 uses a traditional bag of words method in its visual odometry module while DeepVO is a learning-based visual odometry module. We conducted an analysis and comparison between DeepVO and the visual odometry in ORB-SLAM2.
+
+Object detection for LIDAR point clouds([video1](https://drive.google.com/file/d/1lLNbOVB8yLImudYwxUXmTbS7bCBBGV0V/view?usp=sharing), [video2](https://drive.google.com/file/d/1XVGshr7sVhUr9fab5wsR-MEQOrxzyvB1/view?usp=sharing))
+------
+<p align="center">
+  <img height="60%" width="60%" src="/images/yolo.png" />
+</p>
+This is my course project of Computer Vision Couse. We manually generated the LiDAR point clouds with a mobile robot and labeled the objects in a bird’s eye view projections. We implemented the [YOLO](https://pjreddie.com/darknet/yolo/) object detection network and tested it with the manually labeled data. As shown in [video1](https://drive.google.com/file/d/1lLNbOVB8yLImudYwxUXmTbS7bCBBGV0V/view?usp=sharing), this is the result of detecting cars in [Kitti dataset](http://www.cvlibs.net/datasets/kitti/eval_3dobject.php). [video2](https://drive.google.com/file/d/1XVGshr7sVhUr9fab5wsR-MEQOrxzyvB1/view?usp=sharing) shows the result of detecting small objects which are manually labeled by us.
