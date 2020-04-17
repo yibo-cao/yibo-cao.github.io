@@ -33,7 +33,7 @@ In the project, we designed a hierarchical graph neural network based on [DGCNN]
 Depth Prediction with Monocular Images and 2D Laser Scans([arXiv](https://arxiv.org/pdf/1912.00096.pdf))
 ------
 <p align="center">
-  <img height="60%" width="60%" src="/images/graph_network_structure.png" />
+  <img height="60%" width="60%" src="/images/framework_fusionmapping.png" />
 </p>
 In the project, we build a neural network for pseudo-LiDAR generation based on [Monodepth2](https://arxiv.org/pdf/1806.01260.pdf), which could predict accurate depth information with the assistance of monocular images and 2D laser scans. In this project, I collaborated with group members on building this neural network, I also conducted a series of experiments and results analysis.
 
