@@ -21,7 +21,7 @@ Real Time Semantic Segmentation for 3D LIDAR point clouds ([video1](https://driv
   <img height="60%" width="60%" src="/images/robot_semantic.png" />
 </p>
 
-This is my main research project. I proposed a multi-perspective CNN-based nueral newtwork for semantic segmentation on 3D LiDAR point clouds. This network can fuse the features of point cloud projection from both bird's eye view and sphere view to provide robust semantic segmentation results. Users can cutomize the fused feature layer numbers according to different inference time requirements. I also integrated this network with SLAM algorithm in order to improve the segmentation performance on our hexapod robot. Now the robot can do real time semantic segmentation with only a 16-line Velodyne LiDAR as 3D perception sensor as shown in [video1](https://drive.google.com/file/d/1i47W96V4gwl7YbkoEbO0dWUO-UkIkV25/view?usp=sharing). [video2](https://drive.google.com/file/d/1G4iSTo8E4pzox9Z60GI9-HixXoV3ia0V/view?usp=sharing) is the semantic segmentation result on [Semantic3D dataset](http://www.semantic3d.net/view_results.php?chl=2).
+This is my main research project. I proposed a multi-perspective CNN-based neural network for semantic segmentation on 3D LiDAR point clouds. This network can fuse the features of point cloud projection from both bird's eye view and sphere view, achieving a robust semantic segmentation result. Users can customize the fused feature layer number according to different inference time requirements. I also integrated this network, which I implemented using Tensorflow, with a SLAM algorithm to improve the segmentation performance on our hexapod robot. Now the robot can do real-time semantic segmentation with only a 16-line Velodyne LiDAR as a 3D perception sensor as shown in [video1](https://drive.google.com/file/d/1i47W96V4gwl7YbkoEbO0dWUO-UkIkV25/view?usp=sharing). [video2](https://drive.google.com/file/d/1G4iSTo8E4pzox9Z60GI9-HixXoV3ia0V/view?usp=sharing) is the semantic segmentation result on [Semantic3D dataset](http://www.semantic3d.net/view_results.php?chl=2).
 
 Graph-based Semantic Segmentation for 3D point clouds([result](/images/kittiHotseg.jpg))
 ------
@@ -35,5 +35,21 @@ Depth Prediction with Monocular Images and 2D Laser Scans([arXiv](https://arxiv.
 <p align="center">
   <img height="60%" width="60%" src="/images/framework_fusionmapping.png" />
 </p>
-In the project, we build a neural network for pseudo-LiDAR generation based on [Monodepth2](https://arxiv.org/pdf/1806.01260.pdf), which could predict accurate depth information with the assistance of monocular images and 2D laser scans. In this project, I collaborated with group members on building this neural network, I also conducted a series of experiments and results analysis.
+In the project, we build a neural network for pseudo-LiDAR generation based on [Monodepth2](https://arxiv.org/pdf/1806.01260.pdf), which could predict accurate depth information with the assistance of monocular images and 2D laser scans. In this project, I collaborated with group members on building this neural network using Pytorch, I also conducted a series of experiments and results analysis.
 
+Modular Perception Box for mobile robot([Robot system](/images/robotsystem.png))
+------
+<p align="center">
+  <img height="60%" width="60%" src="/images/slambox.png" />
+</p>
+I designed and fabricated a modular perception box that has integrated LiDAR, RealSense camera and Intel NUC. We also integrated the SLAM system and Nvidia Xavier in this box, so that with this modular box mounted on any mobile robot, the robot can utilize the perception functions easily. As shown in this [link](/images/robotsystem.png), on our hexapod robot, this box can cooperate with other sensors to perform complex tasks.
+
+Project
+======
+
+Comparison of ORB-SLAM2 and DeepVO([report](/files/slam_report.png))
+------
+<p align="center">
+  <img height="60%" width="60%" src="/images/slam.gif" />
+</p>
+This is the course project of Robot Localization and Mapping. We implemented [ORB-SLAM2](https://arxiv.org/pdf/1610.06475.pdf) and [DeepVO](https://arxiv.org/pdf/1709.08429.pdf). ORB-SLAM2 uses a traditional bag of words method in its visual odometry module while DeepVO is a learning-based visual odometry module. We conducted an analysis and comparison between DeepVO and the visual odometry in ORB-SLAM2.
