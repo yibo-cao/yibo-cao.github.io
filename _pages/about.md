@@ -16,7 +16,7 @@ I'm interested in solving 3D perception problems (especially the semantic unders
 Research
 ======
 
-Real Time Semantic Segmentation for 3D LIDAR point clouds ([video1](https://drive.google.com/file/d/1i47W96V4gwl7YbkoEbO0dWUO-UkIkV25/view?usp=sharing), [video2](https://drive.google.com/file/d/1G4iSTo8E4pzox9Z60GI9-HixXoV3ia0V/view?usp=sharing))
+Real Time Semantic Segmentation for 3D LiDAR point clouds ([video1](https://drive.google.com/file/d/1i47W96V4gwl7YbkoEbO0dWUO-UkIkV25/view?usp=sharing), [video2](https://drive.google.com/file/d/1G4iSTo8E4pzox9Z60GI9-HixXoV3ia0V/view?usp=sharing))
 ------
 <p align="center">
   <img height="60%" width="60%" src="/images/robot_semantic.png" />
@@ -55,7 +55,7 @@ Comparison of ORB-SLAM2 and DeepVO([report](/files/slam_report.pdf))
 </p>
 This is my course project of Robot Localization and Mapping. We implemented [ORB-SLAM2](https://arxiv.org/pdf/1610.06475.pdf) and [DeepVO](https://arxiv.org/pdf/1709.08429.pdf). ORB-SLAM2 uses a traditional bag of words method in its visual odometry module while DeepVO is a learning-based visual odometry module. We conducted an analysis and comparison between DeepVO and the visual odometry in ORB-SLAM2.
 
-Object detection for LIDAR point clouds([video1](https://drive.google.com/file/d/1lLNbOVB8yLImudYwxUXmTbS7bCBBGV0V/view?usp=sharing), [video2](https://drive.google.com/file/d/1XVGshr7sVhUr9fab5wsR-MEQOrxzyvB1/view?usp=sharing))
+Object detection for LiDAR point clouds([video1](https://drive.google.com/file/d/1lLNbOVB8yLImudYwxUXmTbS7bCBBGV0V/view?usp=sharing), [video2](https://drive.google.com/file/d/1XVGshr7sVhUr9fab5wsR-MEQOrxzyvB1/view?usp=sharing))
 ------
 <p align="center">
   <img height="60%" width="60%" src="/images/yolo.png" />
