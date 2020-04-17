@@ -63,9 +63,9 @@ Object detection for LIDAR point clouds([video1](https://drive.google.com/file/d
 This is my course project of Computer Vision Couse. We manually generated the LiDAR point clouds with a mobile robot and labeled the objects in a bird’s eye view projections. We implemented the [YOLO](https://pjreddie.com/darknet/yolo/) object detection network and tested it with the manually labeled data. As shown in [video1](https://drive.google.com/file/d/1lLNbOVB8yLImudYwxUXmTbS7bCBBGV0V/view?usp=sharing), this is the result of detecting cars in [Kitti dataset](http://www.cvlibs.net/datasets/kitti/eval_3dobject.php). [Video2](https://drive.google.com/file/d/1XVGshr7sVhUr9fab5wsR-MEQOrxzyvB1/view?usp=sharing) shows the result of detecting small objects which are manually labeled by us.
 
 
-Position analysis of robotic arm’s end-effector
+Position analysis of robot arm’s end-effector
 ------
 <p align="center">
   <img height="60%" width="60%" src="/images/GPR2.gif" />
 </p>
-This project aims at predicting the position of a robot arm with very limited calibration data. We used machine learning algorithms to achieve the error feature beneath the robot arm. I implemented and optimized an iterative Gaussian Process Regression (GPR) algorithm to analyze the end-effector position of a high DoF (degree of freedom) industrial robotic arm, achieving prediction error below 0.068mm. I also implemented other machine learning methods, such as SVR (Support Vector Machine Regression) and Bayesian Inference to analyz the iterative GPR performance.
+This project aims at predicting the position of a robot arm with very limited calibration data. We used machine learning algorithms to achieve the error feature beneath the robot arm. I implemented and optimized an iterative Gaussian Process Regression (GPR) algorithm to analyze the end-effector position of a high DoF (degree of freedom) industrial robot arm, achieving prediction error below 0.068mm. I also implemented other machine learning methods, such as SVR (Support Vector Machine Regression) and Bayesian Inference to analyze the iterative GPR performance.
